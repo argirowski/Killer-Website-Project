@@ -79,7 +79,8 @@ h2:after {
 	background-color: rgba(230, 126, 34,1.0);
 	content: " ";
 	width: 100px;
-	margin: 30px auto 0 auto;
+	margin: 0 auto;
+	margin-top: 30px;
 }
 
 /*---------------------------------------*/
@@ -129,12 +130,13 @@ a:link, a:visited {
 	text-decoration: none;
 	border-bottom: 1px solid rgba(230, 126, 34,1.0);
 	padding-bottom: 1px;
+	transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover, a:active {
 	color: rgb(207, 109, 23);
 	border-bottom: 1px solid transparent;
-	transition: border-bottom 0.2s, color: 0.2s;
+
 }
 
 /*---------------------------------------*/
@@ -144,15 +146,16 @@ a:hover, a:active {
 .btn:link, .btn:visited, input[type="submit"] {
 	display: inline-block;
 	padding: 10px 30px;
-	font-weight: 300;
+	font-weight: 300px;
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	/* color: rgb(255, 255, 255); */
 	border-radius: 200px;
 	transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link, .btn-full:visited, input[type="submit"] {
 	background-color: rgba(230, 126, 34,1.0);
+	border: rgba(230, 126, 34,1.0);
 	color: rgb(255, 255, 255);
 	margin-right: 15px;
 }
@@ -232,19 +235,19 @@ header {
 
 /*Sticky Navigation*/
 
-.sticky {
+/* .sticky {
 	position: fixed;
 	top: 0;
 	left: 0;
 	widows: 100%;
 	background-color: rgba(255, 255, 255, 0.98);
-}
+} */
 
 /*---------------------------------------*/
 /*FEATURES*/
 /*---------------------------------------*/
 
-.features .long-copy {
+.section-features .long-copy {
 	margin-bottom: 30px;
 }
 
@@ -516,7 +519,6 @@ footer {
 	border: 0;
 	color: rgb(183, 183, 183);
 	transition: color 0.2s;
-
 }
 
 .footer-nav li a:hover, .footer-nav-li a:active {
