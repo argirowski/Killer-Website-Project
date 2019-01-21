@@ -17,9 +17,10 @@
 <body>
 
 	<header>
-		<nav class="sticky">
+		<nav>
 			<div class="row">
 				<img src="resources/img/logo-white.png" alt="OmniFood Logo" class="logo">
+				<img src="resources/img/logo.png" alt="OmniFood Logo" class="logo-black">
 				<ul class="main-nav">
 					<li><a href="#">Food delivery</a></li>
 					<li><a href="#">How it works</a></li>
@@ -36,7 +37,7 @@
 		</div>
 	</header>
 
-	<section class="features">
+	<section class="features js--section-features">
 		<div class="row">
 			<h2>Get food fast &mdash; not fast food.</h2>
 			<p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No
@@ -481,14 +482,20 @@
 		</div>
 	</footer>
 
-<!-- HTML5 shiv is for styling HTML elements for older browsers that existed before HTML5 -->
+	<!--Includind jQuery to the project folder  -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- HTML5 shiv is for styling HTML elements for older browsers that existed before HTML5 -->
 	<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
 
-<!-- Allows to use CSS3 presudo classes (like :last-child on I.E 6/7/8..) -->
-<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+	<!-- Allows to use CSS3 presudo classes (like :last-child on I.E 6/7/8..) -->
+	<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
 
+	<!-- Including Waypoint -->
+	<script src="vendors/js/jquery.waypoints.min.js"></script>
 
-<script src="resources/js/scripts.js"></script>
+	<!-- Adding a jQuery local script file -->
+	<script src="resources/js/scripts.js"></script>
 
 </body>
 
