@@ -247,6 +247,20 @@ header {
 	border-bottom: 2px solid rgba(230, 126, 34,1.0);
 }
 
+/* Mobile Navigation */
+
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon i {
+	font-size: 200%;
+	color: rgb(255, 255, 255);
+}
+
 /*Sticky Navigation*/
 
 .sticky {
